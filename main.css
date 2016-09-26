@@ -63,22 +63,37 @@ hr {
   border-top: 1px solid #AFDCF8; }
 
 .scrollmenu {
-  float: left;
-  left: -500px;
+  float: right;
+  right: 650px;
   position: relative;
-  text-align: right; }
-  .scrollmenu .date {
-    color: lightgrey;
-    font-size: 14px; }
-  .scrollmenu .posttime {
-    font-family: sans-serif;
-    font-size: 60px; }
-    .scrollmenu .posttime:first-of-type {
-      color: #6CBFEE; }
-    .scrollmenu .posttime:last-of-type {
-      color: #3594CB; }
+  text-align: right;
+  height: 600px;
+  bottom: 300px;
+  background-color: red; }
 
 .circle:nth-of-type(2) {
   top: 260px; }
+
+.date:nth-of-type(1),
+.posttime:nth-of-type(1) {
+  top: 420px;
+  right: 20px;
+  position: absolute; }
+
+.date {
+  color: lightgrey;
+  font-size: 14px; }
+
+.posttime {
+  font-family: sans-serif;
+  font-size: 50px;
+  position: relative; }
+  .posttime:first-of-type {
+    color: #6CBFEE; }
+  .posttime:last-of-type {
+    color: #3594CB; }
+
+body {
+  margin: 100px; }
 
 /*# sourceMappingURL=main.css.map */
